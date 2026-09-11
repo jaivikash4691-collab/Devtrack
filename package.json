@@ -1,0 +1,18 @@
+{
+  "name": "devtrack-workspace",
+  "version": "1.0.0",
+  "description": "DevTrack - Full-Stack MERN Project Management & Project-Health Monitoring Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
